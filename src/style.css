@@ -1,0 +1,111 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css');
+
+.section{
+    display: inline-block;
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(40, 40, 40);
+    padding: 0 10px 40px 10px;
+}
+
+.search{
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+}
+.search .searchTerm{
+    max-width: 200px ;
+    width: 100%;
+    padding: 4px 6px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.search button{
+    width: 90px;
+    padding: 4px 4px;
+    background: rgb(35, 193, 180);
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+.widget{
+    max-width: 350px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+.weatherIcon{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weatherIcon i{
+    font-size: 45px;
+}
+.weath_info_wrapper {
+    display: flex;
+    height: 65px;
+}
+.weatherInfo {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    background: black;
+    color: white;
+    align-items: center;
+    padding-left: 5px;
+    /* justify-content: center; */
+}
+.temprature {
+    font-size: 30px;
+}
+.weatherCondition {
+    font-size: 28px;
+}
+.place{
+    font-size: 14px;
+    letter-spacing: 0.8px;
+}
+.date {
+    width: 96px;
+    display: flex;
+    align-items: center;
+    padding: 0 7px;
+    background: rgb(35, 193, 180);
+}
+.extraTemp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 78px;
+    margin-top: 12px;
+}
+/* .box {
+    display: flex;
+    align-items: center;
+} */
+.temp_info{
+    /* text-align: center; */
+    line-height: 14px;
+    font-size: 14px;
+    margin-top: 7px;
+    font-weight: 700;
+    line-height: 15px;
+}
+.box i{
+   color: rgb(35, 193, 180);
+   font-size: 25px;
+}
+.box {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

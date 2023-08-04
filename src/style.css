@@ -34,6 +34,7 @@
 }
 .widget{
     max-width: 350px;
+    width: 100%;
     background: white;
     margin: 0 auto;
     margin-top: 30px;

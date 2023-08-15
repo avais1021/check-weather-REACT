@@ -8,6 +8,7 @@
     min-height: 100vh;
     background: rgb(40, 40, 40);
     padding-bottom:  40px;
+    box-shadow: none;
 }
 
 .search{
